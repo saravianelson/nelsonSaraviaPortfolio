@@ -117,7 +117,7 @@ export const Home = () => {
               </a>
             </div>
           </div>
-          <img src="src/assets/img/desarrollo-web.jpeg" alt="" />
+          <img src="../src/assets/img/desarrollo-web.jpeg" alt="" />
         </div>
       </div>
       <AboutMe />
