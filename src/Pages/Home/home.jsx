@@ -15,11 +15,12 @@ export const Home = () => {
   return (
     <section id="home">
       <div className="wrapper">
-        <nav className="logo-ap">
-          {/* Aquí puedes agregar el contenido de tu logotipo */}
-        </nav>
+        
         <header>
           <div className="brand">
+          {/* <nav className="logo-ap">
+          <img src="src/assets/img/logo7.png" alt="" />
+        </nav> */}
             <h2>
               <span> </span>
             </h2>

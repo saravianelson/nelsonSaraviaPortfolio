@@ -9,8 +9,8 @@ export const Skills = () => {
       <div className="skills-list">
         <div className="skill">
           <div className="info">
-            <p><span className="skill-icon">&#60;/&#62;</span>HTML & CSS</p>
-            <span className="percent">75%</span>
+            <p><img className="skill-icon" src="src/assets/img/html.png" alt="" />HTML & CSS</p>
+            <span className="percent">95%</span>
           </div>
           <div className="bar">
             <div className="progress html"></div>
@@ -19,8 +19,8 @@ export const Skills = () => {
 
         <div className="skill">
           <div className="info">
-            <p><span className="skill-icon">JS</span>JavaScript</p>
-            <span className="percent">45%</span>
+          <p><img className="skill-icon" src="src/assets/img/javascript-logo-24.png" alt="" />JavaScript</p>
+            <span className="percent">95%</span>
           </div>
           <div className="bar">
             <div className="progress js"></div>
@@ -29,7 +29,17 @@ export const Skills = () => {
 
         <div className="skill">
           <div className="info">
-            <p><span className="skill-icon">&#x1F4BB;</span>Data Base</p>
+            <p><img className="skill-icon" src="src/assets/img/github-logo-24.png" alt="" />Git & GitHub</p>
+            <span className="percent">90%</span>
+          </div>
+          <div className="bar">
+            <div className="progress git"></div>
+          </div>
+        </div>
+
+        <div className="skill">
+          <div className="info">
+            <p><img className="skill-icon" src="src/assets/img/data-solid-24.png" alt="" />Data Base</p>
             <span className="percent">87%</span>
           </div>
           <div className="bar">
@@ -39,13 +49,25 @@ export const Skills = () => {
 
         <div className="skill">
           <div className="info">
-            <p><span className="skill-icon">Git</span>Git & GitHub</p>
+            <p><img className="skill-icon" src="src/assets/img/piton.png" alt="" />Python</p>
             <span className="percent">80%</span>
           </div>
           <div className="bar">
-            <div className="progress git"></div>
+            <div className="progress python"></div>
           </div>
         </div>
+
+        
+        <div className="skill">
+          <div className="info">
+            <p><img className="skill-icon" src="src/assets/img/data-science.png" alt="" />Data Science</p>
+            <span className="percent">80%</span>
+          </div>
+          <div className="bar">
+            <div className="progress ds"></div>
+          </div>
+        </div>
+
       </div>
     </div>
   );

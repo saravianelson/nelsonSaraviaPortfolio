@@ -1,4 +1,5 @@
 import React from "react";
+import './about.css'
 
 export function AboutMe() {
   return (
@@ -28,7 +29,7 @@ export function AboutMe() {
         <p>
           También soy emprendedor y fundador de{" "}
           <a
-            href="https://www.instagram.com/labarberia_deyofre/"
+            href="https://www.instagram.com/barberiayofre/"
             target="_blank"
             rel="noopener noreferrer"
           >

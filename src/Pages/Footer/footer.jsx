@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.css'
 
 export const Footer = () => {
   return (
@@ -7,15 +8,15 @@ export const Footer = () => {
         <h2>Nelson Saravia</h2>
         <h5>Fullstack Developer</h5>
       </div>
-      <div className="social-network">
+      <div className="sotial-network">
         <a href="https://github.com/saravianelson" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-github"></i>
+        <img src="src/assets/img/github-logo-24.png" alt="" />
         </a>
         <a href="https://www.linkedin.com/in/saravianelson/" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-linkedin"></i>
+        <img src="src/assets/img/linkedin-square-logo-24.png" alt="" />
         </a>
         <a href="https://twitter.com/Saravianel" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-twitter"></i>
+          <img src="src/assets/img/twitter-logo-24.png" alt="" />
         </a>
       </div>
     </footer>
