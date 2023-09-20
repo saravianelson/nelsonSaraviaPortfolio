@@ -19,7 +19,7 @@ export const Home = () => {
         <header>
           <div className="brand">
           {/* <nav className="logo-ap">
-          <img src="src/assets/img/logo7.png" alt="" />
+          <img src="public/assets/img/logo7.png" alt="" />
         </nav> */}
             <h2>
               <span> </span>
@@ -117,7 +117,7 @@ export const Home = () => {
               </a>
             </div>
           </div>
-          <img src="../src/assets/img/desarrollo-web.jpeg" alt="" />
+          <img src="../public/assets/img/desarrollo-web.jpeg" alt="" />
         </div>
       </div>
       <AboutMe />
