@@ -10,13 +10,13 @@ export const Footer = () => {
       </div>
       <div className="sotial-network">
         <a href="https://github.com/saravianelson" target="_blank" rel="noopener noreferrer">
-        <img src="public/assets/img/github-logo-24.png" alt="" />
+        <img src="/assets/img/github-logo-24.png" alt="" />
         </a>
         <a href="https://www.linkedin.com/in/saravianelson/" target="_blank" rel="noopener noreferrer">
-        <img src="public/assets/img/linkedin-square-logo-24.png" alt="" />
+        <img src="/assets/img/linkedin-square-logo-24.png" alt="" />
         </a>
         <a href="https://twitter.com/Saravianel" target="_blank" rel="noopener noreferrer">
-          <img src="public/assets/img/twitter-logo-24.png" alt="" />
+          <img src="/assets/img/twitter-logo-24.png" alt="" />
         </a>
       </div>
     </footer>

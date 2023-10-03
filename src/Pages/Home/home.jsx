@@ -15,10 +15,9 @@ export const Home = () => {
   return (
     <section id="home">
       <div className="wrapper">
-        
         <header>
           <div className="brand">
-          {/* <nav className="logo-ap">
+            {/* <nav className="logo-ap">
           <img src="public/assets/img/logo7.png" alt="" />
         </nav> */}
             <h2>
@@ -99,25 +98,25 @@ export const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bi bi-github"></i>
+                <img src="/assets/img/github-logo-24.png" alt="" />
               </a>
               <a
                 href="https://www.linkedin.com/in/saravianelson/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bi bi-linkedin"></i>
+                <img src="/assets/img/linkedin-square-logo-24.png" alt="" />
               </a>
               <a
                 href="https://twitter.com/Saravianel"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bi bi-twitter"></i>
+                <img src="/assets/img/twitter-logo-24.png" alt="" />
               </a>
             </div>
           </div>
-          <img src="../public/assets/img/desarrollo-web.jpeg" alt="" />
+          <img src="/assets/img/desarrollo-web.jpeg" alt="" />
         </div>
       </div>
       <AboutMe />
