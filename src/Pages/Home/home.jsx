@@ -91,30 +91,6 @@ export const Home = () => {
             <a href="#portfolio">
               <button className="contact">My Portfolio</button>
             </a>
-            {/* Iconos redes sociales */}
-            <div className="social-network">
-              <a
-                href="https://github.com/saravianelson"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src="/assets/img/github-logo-24.png" alt="" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/saravianelson/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src="/assets/img/linkedin-square-logo-24.png" alt="" />
-              </a>
-              <a
-                href="https://twitter.com/Saravianel"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src="/assets/img/twitter-logo-24.png" alt="" />
-              </a>
-            </div>
           </div>
           <img src="/assets/img/desarrollo-web.jpeg" alt="" />
         </div>
