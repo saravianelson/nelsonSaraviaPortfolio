@@ -40,3 +40,20 @@
   .about p {
     margin-bottom: 1em;
   }
+
+  
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+
+  .about {
+    display: block;
+  }
+
+  .about img {
+    display: none;
+    }
+
+  .about-info {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.menu-toggler {
+  display: none;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  max-height: 0; 
+  transition: max-height 0.3s ease; 
+  margin-bottom: 3em;
+}
+
+.menu.open {
+  max-height: 500px; 
+  transition: max-height 0.5s ease; 
+}
+
+.menu li {
+  margin-right: 1em;
+  font-size: 17px;
+  padding: 1em;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.img {
+  font-size: 100px;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: grid;
+    justify-content: center;
+  overflow: hidden; 
+  }
+  .menu-toggler {
+    display: grid;
+    justify-content: end;
+  }
+}

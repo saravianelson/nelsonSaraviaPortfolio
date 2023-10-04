@@ -30,7 +30,16 @@ export function Contact() {
       </div>
 
       <div className="container-contact">
-        <div className="contact-form">
+        <div className='contact-details'>
+        <h3>Contact details:</h3>
+        <ul>
+        <li><a className='mail' href="https://www.icloud.com/mail/" target="_blank" rel="noopener noreferrer">nelsonsaravia2018@icloud.com</a></li>
+        <li><p><b>+5493517583165</b></p></li>
+        <li><p>We can get in touch via <a href="https://www.linkedin.com/in/saravianelson/" target="_blank" rel="noopener noreferrer">Linkedin</a></p></li>
+        </ul>
+        </div>
+
+        {/* <div className="contact-form">
           <h4>Send me a message...</h4>
 
           <form className="form" onSubmit={handleSubmit}>
@@ -60,7 +69,7 @@ export function Contact() {
               Send message
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -8,71 +8,61 @@ html {
   scroll-behavior: smooth;
 }
 
-
-#landscape {
-  display: none;
-  z-index: -100;
-}
-
-.logo-ap img{
-  border-radius: 99px;
-  height: 70px;
-}
-
 .wrapper {
   background-color: #151F28;
   color: #fff;
+  padding: 20px;
 }
 
-#home .wrapper header {
-  position: fixed;
-  background-color: rgba(21, 31, 40, .8);
-  width: 100vw;
-  z-index: 1;
-  top: 0;
-}
-
-#home .wrapper header .brand {
-  font-size: 1.2em;
+.header {
+  background-color: rgba(21, 31, 40, 0.8);
+  color: #fff;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
 }
 
-#home .wrapper header .brand span{
-  color: #95A3E0;
-}
-
-#home .wrapper header .navbar ul {
-  list-style: none;
+.header .brand {
+  font-size: 1.2em;
   display: flex;
   align-items: center;
 }
 
-#home .wrapper header .navbar .menu {
-  width: 50%;
-  justify-content: space-around;
+.header .brand span {
+  color: #95A3E0;
+  margin-left: 10px;
+}
+
+.header .navbar {
   display: flex;
   align-items: center;
 }
 
-#home .wrapper header .navbar .menu .active{
+.header .navbar .menu {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+.header .navbar .menu .active {
   color: #95A3E0;
 }
-#home .wrapper header .navbar ul li {
-  list-style: none;
-} 
 
-#home .wrapper header .navbar ul li a {
+.header .navbar ul li {
+  list-style: none;
+}
+
+.header .navbar ul li a {
   text-decoration: none;
   color: #fff;
   margin: 0 12px;
   font-weight: 400;
-  transition: .5s;
+  transition: 0.5s;
   padding: 10px 10px;
 }
-#home .wrapper header .navbar ul a:hover {
+
+.header .navbar ul a:hover {
   color: #95A3E0;
   transition: ease-in 0.5s;
   border: none;
@@ -86,42 +76,39 @@ html {
   border: none;
   border-radius: 2.5em;
   cursor: pointer;
-  box-shadow: 1px 6px 11px -5px rgba(102, 231, 167, 0.69);       
+  box-shadow: 1px 6px 11px -5px rgba(102, 231, 167, 0.69);
 }
+
 .login-button:hover {
   box-shadow: none;
 }
 
 .submission {
-  height: 100vh;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  align-items: center;
+  text-align: center;
+  padding: 20px;
 }
 
 .submission img {
-  width: 450px;
-  height: 300px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
   border: 5px solid #95A3E0;
-  border: none;
   border-radius: 20px;
-  margin-top: 50px;
-  margin-bottom: 90px;
+  margin: 20px 0;
   filter: drop-shadow(1px 3px 8px rgba(39, 37, 45, 0.69));
   box-shadow: 3px 6px 11px -5px rgba(29, 26, 36, 0.69);
 }
 
 .info-content {
-  display: block;
-  padding: 5em;
+  padding: 20px;
 }
+
 .info-content__subtitle {
-  padding: 5em;
+  padding: 10px 0;
 }
 
 h1 {
-  font-size: clamp(4vw, 1.5em, 3em);
+  font-size: 2em;
 }
 
 span {
@@ -131,11 +118,10 @@ span {
 .contact {
   padding: 10px 30px;
   background-color: #4E2ECF;
-  color: #FFFFFF;
+  color: #fff;
   border: none;
   border-radius: 20px;
-  margin-top: 10px;
-  margin-left: 70px;
+  margin-top: 20px;
   cursor: pointer;
   box-shadow: 1px 6px 11px -5px rgba(87, 70, 150, 0.69);
 }
@@ -148,140 +134,38 @@ span {
   display: none;
 }
 
-/*Sección Responsive*/
-
-@media screen and (max-width:800px) {
-  .navbar {
-      display: none;
-  }
-  .navbar {
-      display: block;
-      width: 100vw;
-      position: absolute;
-      top: 4px;
-      left: 0;
-      padding: 10px 0 ;
-  }
-  .navbar ul {
-      display: flex;
-      text-align: center;
-  }
-  .navbar ul li{
-      margin: 5px 0;
-  }
-  .toggle-menu {
-      display: block;
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .header .navbar {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Ajusta esto según tu diseño */
+    left: 0;
+    background-color: #151F28;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
   }
 
-  .menu {
-      flex-direction: column;
-      justify-content: space-evenly;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100vh;
-      background-color: #272A2E;
-      z-index: 1;
-      transform: translateX(-110%);
-      transition: all .5s ease-in-out;
+  .header .navbar.open {
+    display: flex;
   }
 
-  .show-menu {
-      transform: translateX(0%);
-      transition: all .5s ease-in-out;
+  .header .navbar .menu {
+    margin: 20px 0;
   }
 
-  .menu li {
-      margin: 1em;
-  }
-  .bi-list,
-  .bi-x-lg {
-      font-size: 1.5em;
-      margin-top: -.2em;
-  }
-  .toggle-menu .bi-x-lg { 
-      display: none;
-  }
-  
-  .submission,
-  .about{
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-  }
-  .submission img {
-      width: 300px;
-      height: 300px;
-      margin: 0 auto;;
-  }
-  .info-content,
-  .about-info {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-  }
-  .about-info {
-      padding: 3em;
-  }
-  .info-content .sotial-networks,
-  .info-content__subtitle {
-      display: block;
-      margin-top: 1em;
-      padding: 0em;
-  }
-  .info-content .sotial-networks {
-      display: flexbox;
-  }
-  .info-content__p,
-  .about img {
-      display: none;
+  .header .navbar ul li {
+    list-style: none;
   }
 
-  .conteiner-skills {
-      padding: 50px 20px;
-  }
-
-  #portfolio {
-      padding: 50px;
-  }
-
-  #portfolio .row {
-      display: block;
-  }
-  #portfolio .row .proyect {
-      margin: 10px auto;
-  }
-
-  .contact-section {
-      display: grid;
-      grid-template-columns: repeat(10, 1fr);
-      background-color: #0A0D14;
-      color: #fff;
-      padding: 3em;
-      margin: 0 auto;
-      height: 100vh;
- }
-  .contact {
-      margin-right: 5em;
-      padding: 10px 20px;
-  }
-
-  .container-contact {
-      margin: 0 auto;
-      margin-bottom: 0.5em;
-      margin-top: 3em;
-  }
-  
-  .form textarea {
-      height: 10em;
-  }
-  
-  .form {
-      display: flex;
-      flex-direction: column;
-      width: 50vw;
-      margin-top: .5em;
+  .header .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10px 0;
   }
 }
