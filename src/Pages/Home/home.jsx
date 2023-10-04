@@ -74,8 +74,8 @@ export const Home = () => {
             </nav>
             {/* Iconos de Menú Responsive */}
             <div className="toggle-menu">
-              <i className="bi bi-list" id="toggle_open"></i>
-              <i className="bi bi-x-lg" id="toggle_close"></i>
+              <img className="bi bi-list" id="toggle_open" src="/assets/img/open.png"></img>
+              <img className="bi bi-x-lg" id="toggle_close" src="/assets/img/close.png"></img>
             </div>
           </div>
         </header>

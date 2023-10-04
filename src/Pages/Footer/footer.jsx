@@ -4,10 +4,6 @@ import './footer.css'
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-content">
-        <h2>Nelson Saravia</h2>
-        <h5>Fullstack Developer</h5>
-      </div>
       <div className="sotial-network">
         <a href="https://github.com/saravianelson" target="_blank" rel="noopener noreferrer">
         <img src="/assets/img/github-logo-24.png" alt="" />
@@ -18,6 +14,9 @@ export const Footer = () => {
         <a href="https://twitter.com/Saravianel" target="_blank" rel="noopener noreferrer">
           <img src="/assets/img/twitter-logo-24.png" alt="" />
         </a>
+      </div>
+      <div className="footer-content">
+        <h6> © 2021 Nelson Saravia</h6>
       </div>
     </footer>
   );
