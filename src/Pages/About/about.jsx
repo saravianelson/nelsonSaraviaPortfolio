@@ -44,7 +44,7 @@ export function AboutMe() {
           con mi pasión por la innovación.
         </p>
         <a
-          href="https://drive.google.com/file/d/15pVpw2_LOwe9mwXrRfG0qBQS46982LNm/view?usp=sharing"
+          href="https://drive.google.com/file/d/196yBNE5RTge0Dd6Eud-i5KYpjmSjKHi8/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
