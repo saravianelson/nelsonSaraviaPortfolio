@@ -11,7 +11,7 @@ export function AboutMe() {
         <p>
           Soy un cordobés apasionado por la tecnología y el conocimiento, en
           constante búsqueda de nuevos desafíos y oportunidades de aprendizaje.
-          Actualmente, me desempeño como desarrollador web fullstack y estoy a
+          Actualmente, me desempeño como Desarrollador orientado al Front y estoy a
           punto de completar mis estudios en Data Science.
         </p>
         <p>
@@ -39,7 +39,7 @@ export function AboutMe() {
           negocios.
         </p>
         <p>
-          Mi enfoque principal está en el desarrollo web fullstack y las
+          Mi enfoque principal está en el desarrollo Web Front End y las
           Ciencias de Datos, lo que me permite combinar mis habilidades técnicas
           con mi pasión por la innovación.
         </p>

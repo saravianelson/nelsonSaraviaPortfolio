@@ -37,10 +37,10 @@ export const Home = () => {
             </h1>
             <span className="info-content__subtitle">
               Developer
-            </span>
-            <span className="info-content__subtitle">
+            </span><br />
+            {/* <span className="info-content__subtitle">
               Data Scientist
-            </span>
+            </span> */}
             <p className="info-content__p"></p>
             <a href="#portfolio">
               <button className="contact">My Portfolio</button>
