@@ -4,7 +4,7 @@ import { Portfolio } from "../Portfolio/portfolio";
 import { Skills } from "../Skills/skills";
 import { Contact } from "../Contact/contact";
 import { Footer } from "../Footer/footer";
-import Navbar from "../../Components/Navbar/NavBar";
+import Navbar from "../../Components/Navbar/Navbar";
 
 export const Home = () => {
   const [selectedItem, setSelectedItem] = useState("home");
