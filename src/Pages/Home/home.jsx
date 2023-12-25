@@ -32,11 +32,12 @@ export const Home = () => {
         </header>
         <div className="submission">
           <div className="info-content">
-            <h1>
-              <span>Nelson</span> Saravia
-            </h1>
+            <h2>
+            I'm
+              <span> Nelson</span> Saravia
+            </h2>
             <span className="info-content__subtitle">
-              Developer
+              Front End Developer
             </span><br />
             {/* <span className="info-content__subtitle">
               Data Scientist
@@ -46,12 +47,12 @@ export const Home = () => {
               <button className="contact">My Portfolio</button>
             </a>
           </div>
-          <img src="/assets/img/desarrollo-web.jpeg" alt="" />
+          {/* <img src="/assets/img/desarrollo-web.jpeg" alt="" /> */}
         </div>
       </div>
-      <AboutMe />
       <Portfolio />
       <Skills />
+      <AboutMe />
       <Contact />
       <Footer />
     </section>

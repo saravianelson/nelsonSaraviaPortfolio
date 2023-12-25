@@ -4,7 +4,7 @@ import './about.css'
 export function AboutMe() {
   return (
     <section id="aboutme" className="about">
-      <img src="/assets/img/nsaravia.png" alt="" />
+      {/* <img src="/assets/img/nsaravia.png" alt="" /> */}
       <div className="about-info">
         <h2>About me</h2>
         <div className="divider"></div>
