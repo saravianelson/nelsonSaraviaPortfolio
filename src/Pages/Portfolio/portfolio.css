@@ -18,17 +18,25 @@
 }
 
 #portfolio .row {
-  display: flex;
-  flex-wrap: wrap; /* Añade un "wrap" para que los elementos se ajusten en dispositivos móviles */
-  justify-content: space-between;
-  margin: 30px 0;
+  display: grid;
+  flex: 0 0 auto;
+  gap: 24px;
+  grid-auto-rows: minmax(0px, 1fr);
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: repeat(2, minmax(0px, 1fr));
+  justify-content: center;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  /* width: 1008px; */
 }
 
 #portfolio .row .proyect {
-  max-width: calc(50% - 20px); /* Hace que los proyectos ocupen el 50% del ancho en dispositivos móviles */
+   /* max-width: calc(50% - 20px);Hace que los proyectos ocupen el 50% del ancho en dispositivos móviles */
   margin: 0 10px;
   position: relative;
   overflow: hidden;
+  border-radius: 50px;
 }
 
 #portfolio .row .proyect img {
@@ -45,6 +53,7 @@
 
 #portfolio .row .proyect .info {
   position: absolute;
+  text-align: center;
   left: 0;
   background-color: rgba(10, 13, 20, .8);
   color: #95A3E0;
@@ -62,9 +71,18 @@
 
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 768px) {
+  #portfolio .row {
+    grid-template-columns: repeat(1, minmax(50px, 1fr));
+    /* height: 1400px; */
+    order: 1;
+    width: 100%;
+  }
+
   #portfolio .row .proyect {
-    max-width: 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
-    margin-bottom: 20px; /* Añade espacio entre los proyectos */
+    max-width: calc(50% - 20px);
+    max-width: 100%; 
+    margin-bottom: 20px;
+    border-radius: 30px;
   }
   #portfolio .row .proyect .info {
     position: absolute;

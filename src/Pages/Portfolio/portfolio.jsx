@@ -6,6 +6,42 @@ export const Portfolio = () => {
       <h2 className="portfolio-headings">Portfolio</h2>
       <div className="divider"></div>
       <div className="row">
+
+      <div className="proyect">
+          <div className="overlay"></div>
+          <a
+            className="media-figure tw-screenshot undefined"
+            href="https://pollitotravieso.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-describedby="open-in-new-tab"
+            title="Go to site Pollito Travieso Accesorios"
+          >
+            <picture className="tw-border-none tw-m-0 tw-p-0 tw-block tw-w-full tw-align-middle tw-max-w-full tw-h-auto">
+              <source
+                srcSet="https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                type="image/avif"
+              />
+              <source
+                srcSet="https://screenshot-proxy.netlify.app/f_webp,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                type="image/webp"
+              />
+              <img
+                src="https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_1920x1200/https://d33wubrfki0l68.cloudfront.net/657a14f7b351210008e859d0/screenshot_2023-12-13-20-33-16-0000.png"
+                alt=""
+                width="168"
+                height="105"
+                loading="lazy"
+                className="tw-align-top tw-h-full tw-w-full"
+              />
+            </picture>
+          </a>
+          <div className="info">
+            <h3>Pollito Travieso Accesorios</h3>
+            <p>Página Ecommerce para la marca Pollito Travieso</p>
+          </div>
+        </div>
+
         <div className="proyect">
           <div className="overlay"></div>
           <a
@@ -78,6 +114,7 @@ export const Portfolio = () => {
             <p>Práctica de JavaScript</p>
           </div>
         </div>
+
 
       </div>
     </section>
