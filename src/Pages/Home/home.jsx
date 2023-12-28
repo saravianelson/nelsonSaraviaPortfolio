@@ -31,10 +31,13 @@ export const Home = () => {
           </div>
         </header>
         <div className="submission">
-          <div className="info-content">
+          <div className="hello">
+            <h1>Hello!</h1>
+            </div>
+            <div className="info-content">
             <h2>
             I'm
-              <span> Nelson</span> Saravia
+              <span> Nelson Saravia</span> 
             </h2>
             <span className="info-content__subtitle">
               Front End Developer

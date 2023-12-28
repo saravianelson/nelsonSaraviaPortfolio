@@ -1,7 +1,7 @@
 
 .about {
     display: grid;
-    background-color: #95A3E0;
+    background-color: #FFFFFF;
     grid-template-columns: repeat(10, 1fr);
     align-items: center;
   }

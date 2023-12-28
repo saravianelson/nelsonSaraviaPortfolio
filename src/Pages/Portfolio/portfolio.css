@@ -1,7 +1,7 @@
 #portfolio {
   padding: 3em;
   margin: auto;
-  background-color: #151F28;
+  background-color: #181818;
 }
 
 #portfolio .portfolio-headings {
@@ -84,16 +84,17 @@
     margin-bottom: 20px;
     border-radius: 30px;
   }
-  #portfolio .row .proyect .info {
-    position: absolute;
+  
+  /* #portfolio .row .proyect .info { */
+    /* position: absolute;
     left: 0;
     background-color: rgba(10, 13, 20, .8);
     color: #95A3E0;
     width: 100%;
     padding: 10px;
     opacity: 1;
-    bottom: 0;
-  }
+    bottom: 0; */
+  /* } */
   
 #portfolio .row .proyect img {
   filter: none;

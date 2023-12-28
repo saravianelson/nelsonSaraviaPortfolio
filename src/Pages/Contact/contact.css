@@ -1,7 +1,7 @@
 .contact-section {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  background-color: #151F28;
+  background-color: #181818;
   color: #fff;
   padding: 3em;
   margin: 0 auto;

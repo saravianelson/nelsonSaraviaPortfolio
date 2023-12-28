@@ -38,7 +38,7 @@ export const Portfolio = () => {
           </a>
           <div className="info">
             <h3>Pollito Travieso Accesorios</h3>
-            <p>Página Ecommerce para la marca Pollito Travieso</p>
+            <p>Maquetado para página Ecommerce</p>
           </div>
         </div>
 
