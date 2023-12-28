@@ -38,10 +38,11 @@ export const Home = () => {
             </h2>
             <span className="info-content__subtitle">
               Front End Developer
-            </span><br />
-            {/* <span className="info-content__subtitle">
+            </span>
+            <br></br>
+            <span className="info-content__subtitle2">
               Data Scientist
-            </span> */}
+            </span>
             <p className="info-content__p"></p>
             <a href="#portfolio">
               <button className="contact">My Portfolio</button>
