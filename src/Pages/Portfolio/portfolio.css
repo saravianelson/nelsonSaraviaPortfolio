@@ -1,18 +1,18 @@
 #portfolio {
   padding: 3em;
   margin: auto;
-  background-color: #181818;
+  background-color: #FFFFFF;
 }
 
 #portfolio .portfolio-headings {
   font-size: 2.5em;
-  color: #fff;
+  color: #181818;
 }
 
 #portfolio .divider {
   height: 4px;
   width: 60px;
-  background-color: #95A3E0;
+  background-color: #181818;
   margin-top: 5px;
   margin-bottom: 2em;
 }
@@ -84,17 +84,7 @@
     margin-bottom: 20px;
     border-radius: 30px;
   }
-  
-  /* #portfolio .row .proyect .info { */
-    /* position: absolute;
-    left: 0;
-    background-color: rgba(10, 13, 20, .8);
-    color: #95A3E0;
-    width: 100%;
-    padding: 10px;
-    opacity: 1;
-    bottom: 0; */
-  /* } */
+
   
 #portfolio .row .proyect img {
   filter: none;

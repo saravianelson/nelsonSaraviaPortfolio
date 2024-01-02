@@ -11,14 +11,14 @@ html {
 }
 
 .wrapper {
-  background-color: #181818;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #181818;
   padding: 20px;
 }
 
 .header {
   background-color: rgba(21, 31, 40, 0.8);
-  color: #fff;
+  color: #18181818;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -47,9 +47,6 @@ html {
   margin-right: 20px;
 }
 
-.header .navbar .menu .active {
-  color: #95A3E0;
-}
 
 .header .navbar ul li {
   list-style: none;
@@ -57,7 +54,7 @@ html {
 
 .header .navbar ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #181818;
   margin: 0 12px;
   font-weight: 400;
   transition: 0.5s;
@@ -74,7 +71,7 @@ html {
   width: auto;
   padding: 8px 12px;
   background-color: #1BC23E;
-  color: #FFFFFF;
+  color: #181818;
   border: none;
   border-radius: 2.5em;
   cursor: pointer;
@@ -204,15 +201,15 @@ html {
 
 
 span {
-  color: #95A3E0;
+  color: #181818;
 }
 
 
 
 .contact {
   padding: 10px 30px;
-  background-color: #181818;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #181818;
   border: none;
   border-radius: 20px;
   margin-top: 20px;
@@ -256,7 +253,7 @@ span {
 
   .header .navbar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #181818;
     margin: 0;
     font-weight: 400;
     font-size: 1.5em;
