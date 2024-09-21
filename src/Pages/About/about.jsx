@@ -27,15 +27,7 @@ export function AboutMe() {
           para resolver problemas.
         </p>
         <p>
-          También soy emprendedor y fundador de{" "}
-          <a
-            href="https://www.instagram.com/barberiayofre/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Barbería Yofre
-          </a>
-          , lo que me ha brindado una valiosa experiencia en la gestión de
+          También soy emprendedor, lo que me ha brindado una valiosa experiencia en la gestión de
           negocios.
         </p>
         <p>

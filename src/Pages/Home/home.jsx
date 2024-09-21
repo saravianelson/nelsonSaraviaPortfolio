@@ -47,9 +47,9 @@ export const Home = () => {
               Data Scientist
             </span>
             <p className="info-content__p"></p>
-            <a href="#portfolio">
+            {/* <a href="#portfolio">
               <button className="contact">My Portfolio</button>
-            </a>
+            </a> */}
           </div>
           {/* <img src="/assets/img/desarrollo-web.jpeg" alt="" /> */}
         </div>

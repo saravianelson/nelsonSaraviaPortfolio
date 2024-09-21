@@ -1,18 +1,18 @@
 #portfolio {
   padding: 3em;
   margin: auto;
-  background-color: #FFFFFF;
+  background-color: #EADEB8;
 }
 
 #portfolio .portfolio-headings {
   font-size: 2.5em;
-  color: #181818;
+  color: #7C8252;
 }
 
 #portfolio .divider {
   height: 4px;
   width: 60px;
-  background-color: #181818;
+  background-color: #7C8252;
   margin-top: 5px;
   margin-bottom: 2em;
 }
@@ -56,7 +56,7 @@
   text-align: center;
   left: 0;
   background-color: rgba(10, 13, 20, .8);
-  color: #95A3E0;
+  color: #FFFF;
   width: 100%;
   padding: 10px;
   opacity: 0;
