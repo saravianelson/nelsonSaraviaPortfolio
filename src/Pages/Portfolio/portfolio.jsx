@@ -5,8 +5,9 @@ export const Portfolio = () => {
     <section id="portfolio">
       <h2 className="portfolio-headings">Portfolio</h2>
       <div className="divider"></div>
+        <h3 className="portfolio-headings-2">Data Science</h3>
+        <h3 className="portfolio-headings-2">Desarrollo Web</h3>
       <div className="row">
-
       <div className="proyect">
           <div className="overlay"></div>
           <a

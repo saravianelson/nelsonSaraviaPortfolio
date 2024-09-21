@@ -40,11 +40,11 @@ export const Home = () => {
               <span> Nelson Saravia</span> 
             </h2>
             <span className="info-content__subtitle">
-              Front End Developer
+              Data Scientist
             </span>
             <br></br>
             <span className="info-content__subtitle2">
-              Data Scientist
+              Front End Developer
             </span>
             <p className="info-content__p"></p>
             {/* <a href="#portfolio">

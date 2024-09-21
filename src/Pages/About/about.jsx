@@ -11,8 +11,8 @@ export function AboutMe() {
         <p>
           Soy un cordobés apasionado por la tecnología y el conocimiento, en
           constante búsqueda de nuevos desafíos y oportunidades de aprendizaje.
-          Actualmente, me desempeño como Desarrollador orientado al Front y estoy a
-          punto de completar mis estudios en Data Science.
+          Actualmente, me desempeño como Desarrollador orientado al Front y
+          incursionando en el área del Data Science.
         </p>
         <p>
           Además de mi interés por la tecnología, soy padre de familia y
